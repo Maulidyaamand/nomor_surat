@@ -1,0 +1,11 @@
+.custom-content {
+    margin-top: 10px;
+}
+
+.custom-content h1 {
+    margin-left: 15px;
+    background-color: #ffffff;
+    padding: 2rem;
+    margin-left: 15px;
+    border-radius: 10px;
+}

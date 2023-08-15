@@ -1,0 +1,35 @@
+
+
+.input-group>h6{
+    display: flex;
+    font-size:small;
+    align-items: center;
+   
+}
+.form-control{
+    font-size: small;
+}
+
+.input-group {
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    margin-top:0px;
+}
+
+.input-group select.form-control {
+    background-color: #D9D9D9;
+
+} 
+
+.table{
+    font-size: small;
+}
+
+.btn-primary,
+.btn-outline-secondary, .form-control{
+  height: 25px;
+  padding: 2px 8px; 
+}
+
+  

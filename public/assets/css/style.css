@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+h4 {
+    font-size:x-large;
+}
+
+/* Navbar */
+.logo-container {
+    display: flex;
+    margin-left: -12px;
+    align-items: center;
+}
+
+.text-container {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.text-container h6,
+.text-container h7 {
+    margin: 0;
+    font-size: 14px;
+    color: #000000;
+}
+
+.row {
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 2px;
+}
+
+.custom-nav {
+    background-color: white;
+    border-radius: 10px;
+    height: 600px; 
+
+}
+
+
+.col-2{
+    margin-top: 10px;
+
+}
+.nav-itemm{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: small;
+    margin-left: 10px;
+    color: #717171;
+}
+
+.nav-item{
+    margin-top: 3px;
+    margin-left: 5px;
+}
+
+.nav-link {
+    color: #000000;
+}
+
+.nav-link span {
+    font-size: 13px; /* Ubah angka sesuai dengan ukuran font yang diinginkan */
+  }
+
+.fa-envelope {
+    color: #717171;
+}
+
+.fa-home {
+    color: #717171;
+}
+
+
+
+.submenu {
+    display: none;
+}
+
+.submenu.show {
+    display: block;
+}
+
+.nav-link i {
+    margin-right: 0.5rem;
+}
+
+.custom-content {
+    margin-top: 10px;
+    background-color: #ffffff;
+    padding: 2rem;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+
+.custom-content h1 {
+    margin-left: 15px;
+}
+
+.table {
+    margin-top: 10px;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+body {
+    font-family: Poppins;
+    color: #000;
+    background-color: #EEF2F7;
+}
+
+  /* CSS untuk menu aktif */
+.nav-item.active > a {
+background-color: #f0f0f0; /* Ganti dengan warna yang Anda inginkan */
+}
+
+  /* CSS untuk submenu */
+.submenu {
+display: none;
+}
+
+  /* CSS untuk submenu yang sedang dibuka */
+.submenu.show {
+display: block;
+}
+

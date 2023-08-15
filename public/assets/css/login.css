@@ -1,0 +1,28 @@
+.two-lines {
+    margin-top: 12px;
+    display: inline-block;
+    max-width: 350px;
+    word-wrap: break-word;
+}
+
+.text-center {
+    color: #3E4073;
+}
+
+h3 {
+    margin-top: 20px;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    background-color: #F5F5F5;
+    /* Ganti dengan warna yang diinginkan */
+}
+
+.btn-primary {
+    background-color: #3E4073!important;
+    /* Ganti dengan warna yang diinginkan */
+}
